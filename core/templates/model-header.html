@@ -1,0 +1,9 @@
+<nav class="navbar navbar-dark navbar-expand-sm bg-dark text-white">
+    <a class="navbar-brand" href={% url 'index' %}>CRM</a>
+    <ul class="navbar-nav mr-uto">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url "customer:customer_list" %}">Clientes</a>
+        </li>
+    </ul>
+    <a class="" href="{% url 'logout' %}" style="align right">Sair</a>
+</nav>
